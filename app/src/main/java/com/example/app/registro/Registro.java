@@ -19,14 +19,14 @@ public class Registro extends AppCompatActivity {
         setContentView(R.layout.activity_registro);
     }
 
-    //Ao clicar no doador, ir para o perfil.
+    //Ao clicar no doador, ir para o perfil. Falta os dados do cadastro irem para o Perfil.
     public void Doador(View view) {
         Button doador = findViewById(R.id.doador);
         Intent cadastroDoador = new Intent(getApplicationContext(), CadastroDoador.class);
         startActivity(cadastroDoador);
     }
 
-    //Ao clicar no hemocentro, ir para o perfil.
+    //Ao clicar no hemocentro, ir para o perfil. Falta os dados do cadastro irem para o Perfil.
     public void Hemocentro(View view) {
         Button hemocentro = findViewById(R.id.hemocentro);
         Intent cadastroHemocentro = new Intent(getApplicationContext(), CadastroHemocentro.class);
